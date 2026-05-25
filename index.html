@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Calculator(SoloVibe)</title>
+          <link rel="stylesheet" href="style.css">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" ... />
+</head>
+<body>
+      <div class="wrapper">
+          <div class="haeader">
+            <i onclick="light()" class="fa-solid fa-sun"></i>
+                    <h1 >Calculator</h1>
+                    <i onclick="dark()" class="fa-solid fa-moon"></i>
+          </div>
+          <div class="buttonwrapper">
+         <div class="output">
+           <input type="text" name="" id="display" readonly>
+         </div>
+               <div class="btns">
+                    <button style="color: #D75F60;" onclick="Clear()">AC</button>
+                       <button onclick="del()"><i class="fa-solid fa-delete-left"></i></button>
+                       <button onclick="press('%')">%</button>
+                       <button  class="sign" onclick="press('➗')">➗</button>
+                       <button onclick="press('7')">7</button>
+                       <button onclick="press('8')">8</button>
+                       <button onclick="press('9')">9</button>
+                       <button onclick="press('✖️')" class="sign">✖️</button>
+                       <button onclick="press('4')">4</button>
+                       <button onclick="press('5')">5</button>
+                       <button onclick="press('6')"> 6</button>
+                       <button onclick="press('-')" class="sign">➖</button>
+                       <button onclick="press('1')">1</button>
+                       <button onclick="press('2')">2</button>
+                       <button onclick="press('3')">3</button>
+                       <button  onclick="press('➕')">➕</button>
+                       <button class="big" onclick="press('0')">0</button>
+                       <button onclick="press('.')">.</button>
+                       <button style="background-color: #3b82f6;"onclick="calculate()">=</button>
+          </div>
+          </div>
+      </div> 
+        <script src="script.js"></script>
+            
+</body>
+</html>
